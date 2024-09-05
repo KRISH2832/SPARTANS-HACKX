@@ -37,7 +37,7 @@ The project utilizes a hybrid approach to code analysis, combining multiple meth
 
 ## File Description
 
-- **ai_vs_human_code_detection.py**: The main script that contains all functions and logic for the AI vs Human Code Detection tool. It includes:
+- **app.py**: The main script that contains all functions and logic for the AI vs Human Code Detection tool. It includes:
   - preprocess_code(): Removes comments and normalizes whitespace in the code.
   - compute_ast_similarity(): Computes structural similarity using AST representations.
   - compute_tfidf_similarity(): Calculates semantic similarity using TF-IDF and cosine similarity.
