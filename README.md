@@ -46,18 +46,6 @@ The project utilizes a hybrid approach to code analysis, combining multiple meth
   - is_generated_code(): Main function to classify whether the input code is AI-generated or human-written.
   - main(): The main function to run the Streamlit-based web application.
 
--**text.py**: This script focuses on text analysis for the AI vs Human Text Detection tool, offering a variety of methods to preprocess, analyze, and classify text based on various linguistic features. Key functions include:
-
--preprocess_text(): Tokenizes the input text, removes stop words, and filters out punctuation.
--plot_most_common_words(): Plots the 10 most frequent words in the input text using a bar chart.
--plot_repeated_words(): Identifies and plots repeated words in the input text.
--calculate_burstiness(): Computes the burstiness score, reflecting the variability in word frequency.
--calculate_entropy(): Calculates entropy to measure the uncertainty or randomness in word distributions.
--calculate_avg_sentence_length(): Determines the average sentence length based on the number of tokens per sentence.
--calculate_lexical_diversity(): Analyzes the lexical diversity by comparing the ratio of unique tokens to total tokens.
--is_generated_text(): The core function that uses text features and a transformer-based classifier to determine if the text is likely AI-generated or human-written.
--main(): The primary function to run the Streamlit-based web application for interactive text analysis.
-
 ## How to Run the File
 
 ### Prerequisites
