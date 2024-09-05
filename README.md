@@ -57,3 +57,5 @@ pip install nltk transformers scikit-learn streamlit matplotlib
 import nltk
 nltk.download('punkt')
 streamlit run app.py
+        OR
+streamlit run text.py
